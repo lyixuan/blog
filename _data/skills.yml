@@ -1,19 +1,27 @@
-- name: Software Engineer Keywords
+- name: Developer Keywords
   keywords:
+      - Html
+      - Css
+      - JavaScript
+      - Ajax
+      - AngularJs
+      - VueJs
+      - WebPack
       - Java
-      - C++
+      - MySQL
+      - NodeJS
+      - ApiCloud
       - Python
-      - Design Patterns
 
-- name: Mobile Developer Keywords
-  keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+#- name: Mobile Developer Keywords
+#  keywords:
+#      - Android
+#      - Reverse Engineering
+#
+#- name: Windows Developer Keywords
+#  keywords:
+#      - Win32 SDK
+#      - DuiLib
+#      - WTL
+#      - COM
+#      - WinDbg
