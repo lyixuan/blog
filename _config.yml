@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://liuyixuan.com.cn
+url:
 date_format: "ordinal"
 title: YiXuan Liu
 subtitle: "怡瑄的github之家"
