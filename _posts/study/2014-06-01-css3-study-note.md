@@ -1,8 +1,9 @@
 ---
 layout: post
-title: CSS3系统学习笔记
+title: CSS笔记系列（一）  -- CSS选择器
 categories: Notes
-description: CSS3系统学习笔记
-keywords: CSS3
+description: CSS学习笔记
+keywords: CSS,选择器
 ---
 
+#1.
