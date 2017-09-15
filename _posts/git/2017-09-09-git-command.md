@@ -56,11 +56,13 @@ keywords: git
   ``` 
   
   >比如，取回远程remote命名为center的master分支，与本地develop进行merge
+  
   ```
   git pull center master:develop
   ``` 
  
   >如果要与本地当前分支进行merge，冒号后的<本地分支名>可以省略
+  
   ```
   git pull center master:develop
   ``` 
