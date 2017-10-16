@@ -78,6 +78,10 @@ keywords: git
     git commit -m 'first commit'
     
     git remote add origin git@github.com:daixu/WebApp.git  增加一个远程服务器端
+    
+    git pull origin master --allow-unrelated-histories  git新版本需要
+    
+    git push 
 
    ``` 
    
@@ -115,7 +119,7 @@ keywords: git
      
     git remote origin set-url https://git.coding.net/**/**.git
      
-    git pull origin master ----allow-unrelated-histories
+    git pull origin master --allow-unrelated-histories
      
     git push origin master
     
