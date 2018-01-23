@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一次大型前后端分离系统的权限设计
+title: 一个前后端分离系统的权限设计
 categories: design
 description: design
 keywords: privilege
