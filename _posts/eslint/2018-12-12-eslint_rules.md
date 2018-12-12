@@ -52,7 +52,7 @@ console.log(a);
 
 | 类别 | 描述 |
 | --- | --- |
-| Possible Errors | 可能的错误或逻辑错误 |
+| **Possible Errors** | **可能的错误或逻辑错误** |
 | no-cond-assign | 禁止条件表达式中出现模棱两可的赋值操作符 |
 | no-console | 禁用console |
 | no-constant-condition | 禁止在条件中使用常量表达式 |
@@ -75,8 +75,8 @@ console.log(a);
 | no-unreachable | 禁止在return、throw、continue 和 break语句之后出现不可达代码 |
 | use-isnan | 要求使用 isNaN() 检查 NaN |
 | valid-typeof | 强制 typeof 表达式与有效的字符串进行比较 |
-| ------ | ------ |
-| Best Practices | 最佳实践 |
+| - - - - - - | - - - - - - |
+| **Best Practices** | **最佳实践** |
 | array-callback-return | 强制数组方法的回调函数中有 return 语句 |
 | block-scoped-var | 强制把变量的使用限制在其定义的作用域范围内 |
 | complexity | 指定程序中允许的最大环路复杂度 |
@@ -119,11 +119,11 @@ console.log(a);
 | no-useless-call | 禁止不必要的 .call() 和 .apply() |
 | no-useless-concat | 禁止不必要的字符串字面量或模板字面量的连接 |
 | vars-on-top | 要求所有的 var 声明出现在它们所在的作用域顶部 |
-| ----- | ----- |
-| Strict Mode | 使用严格模式和严格模式指 |
+| - - - - - | - - - - - |
+| **Strict Mode** | **使用严格模式和严格模式指** |
 | strict | 要求或禁止使用严格模式指令 |
-| ----- | ----- |
-| Variables | 变量声明 |
+| - - - - - | - - - - - |
+| **Variables** | **变量声明** |
 | init-declarations | 要求或禁止 var 声明中的初始化 |
 | no-catch-shadow | 不允许 catch 子句的参数与外层作用域中的变量同名 |
 | no-restricted-globals | 禁用特定的全局变量 |
@@ -132,16 +132,16 @@ console.log(a);
 | no-undef-init | 禁止将变量初始化为 undefined |
 | no-unused-vars | 禁止出现未使用过的变量 |
 | no-use-before-define | 不允许在变量定义之前使用它们 |
-| ----- | ----- |
-| Nodejs and CommonJS | Node.js,CommonJS |
+| - - - - - | - - - - - |
+| **Nodejs and CommonJS** | **Node.js,CommonJS** |
 | global-require | 要求 require() 出现在顶层模块作用域中 |
 | handle-callback-err | 要求回调函数中有容错处理 |
 | no-mixed-requires | 禁止混合常规 var 声明和 require 调用 |
 | no-new-require | 禁止调用 require 时使用 new 操作符 |
 | no-path-concat | 禁止对 dirname 和 filename进行字符串连接 |
 | no-restricted-modules | 禁用指定的通过 require 加载的模块 |
-| ----- | ----- |
-| Stylistic Issues | 风格指南 |
+| - - - - - | - - - - - |
+| **Stylistic Issues** | **风格指南** |
 | array-bracket-spacing | 强制数组方括号中使用一致的空格 |
 | block-spacing | 强制在单行代码块中使用一致的空格 |
 | brace-style | 强制在代码块中使用一致的大括号风格 |
