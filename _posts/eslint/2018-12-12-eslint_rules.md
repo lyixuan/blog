@@ -123,7 +123,7 @@ console.log(a);
 | ***Strict Mode*** | ***使用严格模式和严格模式指*** |
 | strict | 要求或禁止使用严格模式指令 |
 | - - - - - | - - - - - |
-| **Variables** | **变量声明** |
+| ***Variables*** | ***变量声明*** |
 | init-declarations | 要求或禁止 var 声明中的初始化 |
 | no-catch-shadow | 不允许 catch 子句的参数与外层作用域中的变量同名 |
 | no-restricted-globals | 禁用特定的全局变量 |
@@ -201,3 +201,11 @@ console.log(a);
 | space-infix-ops | 要求操作符周围有空格 |
 | space-unary-ops | 强制在一元操作符前后使用一致的空格 |
 | spaced-comment | 强制在注释中 // 或 /* 使用一致的空格 |
+| - - - - - | - - - - - |
+| ***Stylistic Issues*** | ***风格指南*** |
+| arrow-body-style | 要求箭头函数体使用大括号 |
+| arrow-parens | 要求箭头函数的参数使用圆括号 |
+| no-const-assign | 禁止修改 const 声明的变量 |
+| no-var | 要求使用 let 或 const 而不是 var |
+| require-yield | 要求generator 函数内有 yield |
+| sort-imports | 强制模块内的 import 排序 |
