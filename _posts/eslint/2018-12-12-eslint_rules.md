@@ -12,7 +12,7 @@ ESLint 是在 ECMAScript/JavaScript 代码中识别和报告模式匹配的工�
 * ESLint 使用 AST 去分析代码中的模式
 * ESLint 是完全插件化的。每一个规则都是一个插件并且你可以在运行时添加更多的规则。
 
-**1 禁用ESLint：
+** 1 禁用ESLint：
 ```
 /* eslint-disable */
 var a = 100;
