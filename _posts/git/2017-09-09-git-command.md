@@ -145,7 +145,14 @@ keywords: git
    ```
    注：不能删除当前分支，如删除需先切换到其他分支
    
-## 6、git常用命令速查
+## 6、撤销合并
+
+  * 1.执行 git merge dev后，需要解冲突。这是想要撤销这次操作，可执行以下命令
+  ```
+  git merge --abort
+   ```
+   
+## git常用命令速查
 
 * git branch 查看本地所有分支
 * git status 查看当前状态 
