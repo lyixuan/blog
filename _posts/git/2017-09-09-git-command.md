@@ -124,8 +124,28 @@ keywords: git
     git push origin master
     
     ```
+## 5、删除远程和本地分支
 
-## 5、git常用命令速查
+  
+  ```
+  liuyixuan:sd_inspector_admin lyx$ git branch -a      // 查看所有分支.其中，remote/origin/master表示的是远程分支
+      development
+      master
+      quality
+    * score_appeal
+      remotes/origin/HEAD -> origin/master
+      remotes/origin/development
+      remotes/origin/master
+      remotes/origin/quality
+
+    
+   git push origin --delete quality              // 可以删除远程分支  quality
+    
+   git branch -d quality         // 可以删除远程分支  quality
+   ```
+   注：不能删除当前分支，如删除需先切换到其他分支
+   
+## 6、git常用命令速查
 
 * git branch 查看本地所有分支
 * git status 查看当前状态 
