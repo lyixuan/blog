@@ -141,7 +141,7 @@ keywords: git
     
    git push origin --delete quality              // 可以删除远程分支  quality
     
-   git branch -d quality         // 可以删除远程分支  quality
+   git branch -d quality         // 可以删除本地分支  quality
    ```
    注：不能删除当前分支，如删除需先切换到其他分支
    
