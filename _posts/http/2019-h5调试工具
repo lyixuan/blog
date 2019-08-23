@@ -1,0 +1,23 @@
+---
+layout: post
+title: HTTP 测试
+categories: h5 测试
+
+keywords: http,h5
+---
+
+
+* h5测试工具
+
+让移动端h5像web一样查看控制台，方便调试
+
+* 使用
+index.html 页面，引入下面js即可
+
+```
+<script type="text/javascript" src='https://cdn.bootcss.com/vConsole/3.3.0/vconsole.min.js'></script>
+    <script>
+    var vConsole = new VConsole();
+    </script>
+```
+
